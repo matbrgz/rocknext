@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include rocknext *.css
+recursive-include rocknext *.csv
+recursive-include rocknext *.html
+recursive-include rocknext *.ico
+recursive-include rocknext *.js
+recursive-include rocknext *.json
+recursive-include rocknext *.md
+recursive-include rocknext *.png
+recursive-include rocknext *.py
+recursive-include rocknext *.svg
+recursive-include rocknext *.txt
+recursive-exclude rocknext *.pyc
