@@ -5,7 +5,7 @@ def get_data():
 		{
 			"module_name": "RockNext",
 			"color": "blue",
-			"icon": "octicon oction-zap",
+			"icon": "octicon octicon-zap",
 			"type": "module",
 			"label": _("RockNext")
 		}

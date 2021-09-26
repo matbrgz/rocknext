@@ -1,0 +1,59 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "creation": "2021-09-26 01:45:13.935699",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "icon": "device-desktop",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "IT",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Inventory",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Hardware Asset",
+   "link_to": "Hardware Asset",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Application Asset",
+   "link_to": "Application Asset",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2021-09-26 02:16:04.223610",
+ "modified_by": "Administrator",
+ "module": "Information Technology",
+ "name": "IT",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "Application Asset",
+   "link_to": "Application Asset",
+   "type": "DocType"
+  }
+ ]
+}
