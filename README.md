@@ -18,6 +18,14 @@
 RockNext is an Open Source extending ERPNext built on top of Frappe bringing enterprise ready utilization.
 
 ## Installation
+Too get start you must attend the follow requiriments:
+
+```
+- Frappe Framework
+```
+Or you can even use Docker, avalible at (Frappe Docker Installation)[https://github.com/frappe/frappe_docker#getting-started]
+
+Then you must install the app
 
 ```bash
 # get app
