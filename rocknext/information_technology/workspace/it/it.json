@@ -17,7 +17,24 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Inventory",
+   "label": "Helpdesk",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Ticket",
+   "link_to": "Ticket",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Assets",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
@@ -41,7 +58,7 @@
    "type": "Link"
   }
  ],
- "modified": "2021-09-26 02:16:04.223610",
+ "modified": "2023-10-27 10:00:00.000000",
  "modified_by": "Administrator",
  "module": "Information Technology",
  "name": "IT",
@@ -50,9 +67,17 @@
  "pin_to_top": 0,
  "shortcuts": [
   {
+   "color": "Red",
    "doc_view": "List",
-   "label": "Application Asset",
-   "link_to": "Application Asset",
+   "label": "New Ticket",
+   "link_to": "Ticket",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Assets",
+   "link_to": "Hardware Asset",
    "type": "DocType"
   }
  ]

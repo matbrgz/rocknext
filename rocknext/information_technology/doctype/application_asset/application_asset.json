@@ -1,39 +1,49 @@
 {
  "actions": [],
- "creation": "2021-09-26 00:04:46.403529",
+ "creation": "2021-09-26 00:26:10.568752",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "title",
-  "state",
-  "description"
+  "application_name",
+  "status",
+  "version",
+  "vendor",
+  "license_expiry"
  ],
  "fields": [
   {
-   "fieldname": "title",
+   "fieldname": "application_name",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Title",
+   "label": "Application Name",
    "reqd": 1
   },
   {
-   "fieldname": "state",
+   "default": "Active",
+   "fieldname": "status",
    "fieldtype": "Select",
-   "in_list_view": 1,
-   "label": "State",
-   "options": "Discovered\nIn review\nEvaluation period\nSanctioned\nCost optimization\nNeed to close\nClosed",
-   "reqd": 1
+   "label": "Status",
+   "options": "Active\nExpired\nRetired"
   },
   {
-   "fieldname": "description",
-   "fieldtype": "Small Text",
-   "label": "Description"
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "label": "Version"
+  },
+  {
+   "fieldname": "vendor",
+   "fieldtype": "Data",
+   "label": "Vendor"
+  },
+  {
+   "fieldname": "license_expiry",
+   "fieldtype": "Date",
+   "label": "License Expiry"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-09-26 00:04:46.403529",
+ "modified": "2023-10-27 10:00:00.000000",
  "modified_by": "Administrator",
  "module": "Information Technology",
  "name": "Application Asset",

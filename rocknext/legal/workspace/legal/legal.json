@@ -17,7 +17,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Lorem upslum",
+   "label": "Legal",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
@@ -25,14 +25,23 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Lorem upslum",
-   "link_to": "About Us Settings",
+   "label": "Legal Contract",
+   "link_to": "Legal Contract",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Contract Category",
+   "link_to": "Contract Category",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2021-09-26 01:55:02.268476",
+ "modified": "2023-10-27 10:00:00.000000",
  "modified_by": "Administrator",
  "module": "Legal",
  "name": "Legal",
@@ -41,9 +50,12 @@
  "pin_to_top": 0,
  "shortcuts": [
   {
+   "color": "Blue",
    "doc_view": "",
-   "label": "Lorem upslum",
-   "link_to": "About Us Settings",
+   "format": "",
+   "label": "New Contract",
+   "link_to": "Legal Contract",
+   "stats_filter": "[]",
    "type": "DocType"
   }
  ]
