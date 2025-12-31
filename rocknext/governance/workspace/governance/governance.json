@@ -17,22 +17,43 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Lorem upslum",
+   "label": "Governance",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
   },
   {
+   "dependencies": "",
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Lorem upslum",
-   "link_to": "About Us Settings",
+   "label": "Policy",
+   "link_to": "Policy",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Committee",
+   "link_to": "Committee",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Change Management",
+   "link_to": "Change Management",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2021-09-26 02:09:50.514172",
+ "modified": "2023-10-27 10:00:00.000000",
  "modified_by": "Administrator",
  "module": "Governance",
  "name": "Governance",
@@ -41,9 +62,21 @@
  "pin_to_top": 0,
  "shortcuts": [
   {
+   "color": "Green",
    "doc_view": "",
-   "label": "Lorem upslum",
-   "link_to": "About Us Settings",
+   "format": "",
+   "label": "New Policy",
+   "link_to": "Policy",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "",
+   "format": "",
+   "label": "New Change Request",
+   "link_to": "Change Management",
+   "stats_filter": "[]",
    "type": "DocType"
   }
  ]

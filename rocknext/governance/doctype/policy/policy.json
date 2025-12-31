@@ -5,18 +5,69 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "data"
+  "title",
+  "status",
+  "policy_category",
+  "version",
+  "section_break_1",
+  "effective_date",
+  "expiration_date",
+  "section_break_2",
+  "content"
  ],
  "fields": [
   {
-   "fieldname": "data",
+   "fieldname": "title",
    "fieldtype": "Data",
-   "label": "Data"
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nReviewed\nApproved\nPublished\nArchived"
+  },
+  {
+   "fieldname": "policy_category",
+   "fieldtype": "Link",
+   "label": "Policy Category",
+   "options": "Policy Category"
+  },
+  {
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "label": "Version"
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "effective_date",
+   "fieldtype": "Date",
+   "label": "Effective Date"
+  },
+  {
+   "fieldname": "expiration_date",
+   "fieldtype": "Date",
+   "label": "Expiration Date"
+  },
+  {
+   "fieldname": "section_break_2",
+   "fieldtype": "Section Break",
+   "label": "Policy Content"
+  },
+  {
+   "fieldname": "content",
+   "fieldtype": "Text Editor",
+   "label": "Content"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-09-26 00:56:18.269133",
+ "modified": "2023-10-27 10:00:00.000000",
  "modified_by": "Administrator",
  "module": "Governance",
  "name": "Policy",
