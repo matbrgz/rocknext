@@ -5,18 +5,69 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "data"
+  "asset_name",
+  "status",
+  "assigned_to",
+  "section_break_1",
+  "serial_number",
+  "model",
+  "brand",
+  "purchase_date",
+  "warranty_expiry"
  ],
  "fields": [
   {
-   "fieldname": "data",
+   "fieldname": "asset_name",
    "fieldtype": "Data",
-   "label": "Data"
+   "label": "Asset Name",
+   "reqd": 1
+  },
+  {
+   "default": "In Use",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "In Use\nIn Storage\nRetired\nRepair"
+  },
+  {
+   "fieldname": "assigned_to",
+   "fieldtype": "Link",
+   "label": "Assigned To",
+   "options": "User"
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "serial_number",
+   "fieldtype": "Data",
+   "label": "Serial Number"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "brand",
+   "fieldtype": "Data",
+   "label": "Brand"
+  },
+  {
+   "fieldname": "purchase_date",
+   "fieldtype": "Date",
+   "label": "Purchase Date"
+  },
+  {
+   "fieldname": "warranty_expiry",
+   "fieldtype": "Date",
+   "label": "Warranty Expiry"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-09-26 00:26:10.568752",
+ "modified": "2023-10-27 10:00:00.000000",
  "modified_by": "Administrator",
  "module": "Information Technology",
  "name": "Hardware Asset",

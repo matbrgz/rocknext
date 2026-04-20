@@ -1,22 +1,54 @@
 {
  "actions": [],
- "creation": "2021-09-26 03:39:42.138948",
+ "creation": "2021-09-26 00:56:18.269133",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "data"
+  "title",
+  "status",
+  "section_break_1",
+  "description",
+  "reason",
+  "impact"
  ],
  "fields": [
   {
-   "fieldname": "data",
+   "fieldname": "title",
    "fieldtype": "Data",
-   "label": "Data"
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "default": "New",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "New\nUnder Review\nApproved\nRejected\nImplemented"
+  },
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "reason",
+   "fieldtype": "Text Editor",
+   "label": "Reason for Change"
+  },
+  {
+   "fieldname": "impact",
+   "fieldtype": "Text Editor",
+   "label": "Impact Analysis"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-09-26 03:39:42.138948",
+ "modified": "2023-10-27 10:00:00.000000",
  "modified_by": "Administrator",
  "module": "Governance",
  "name": "Change Management",

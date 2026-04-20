@@ -5,18 +5,26 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "data"
+  "category_name",
+  "description"
  ],
  "fields": [
   {
-   "fieldname": "data",
+   "fieldname": "category_name",
    "fieldtype": "Data",
-   "label": "Data"
+   "label": "Category Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-09-26 00:55:14.094411",
+ "modified": "2023-10-27 10:00:00.000000",
  "modified_by": "Administrator",
  "module": "Governance",
  "name": "Policy Category",

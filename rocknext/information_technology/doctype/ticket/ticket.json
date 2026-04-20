@@ -1,22 +1,59 @@
 {
  "actions": [],
- "creation": "2021-09-26 00:52:13.901596",
+ "creation": "2021-09-26 00:26:10.568752",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "data"
+  "subject",
+  "status",
+  "priority",
+  "raised_by",
+  "assigned_to",
+  "description"
  ],
  "fields": [
   {
-   "fieldname": "data",
+   "fieldname": "subject",
    "fieldtype": "Data",
-   "label": "Data"
+   "label": "Subject",
+   "reqd": 1
+  },
+  {
+   "default": "Open",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Open\nIn Progress\nResolved\nClosed"
+  },
+  {
+   "default": "Medium",
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "label": "Priority",
+   "options": "Low\nMedium\nHigh\nCritical"
+  },
+  {
+   "fieldname": "raised_by",
+   "fieldtype": "Link",
+   "label": "Raised By",
+   "options": "User"
+  },
+  {
+   "fieldname": "assigned_to",
+   "fieldtype": "Link",
+   "label": "Assigned To",
+   "options": "User"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-09-26 00:52:13.901596",
+ "modified": "2023-10-27 10:00:00.000000",
  "modified_by": "Administrator",
  "module": "Information Technology",
  "name": "Ticket",
